@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;600&family=DM+Sans:ital,opsz,wght@1,9..40,300&family=Martian+Mono:wght@500&family=Montserrat:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app{
+height: 100%;
+width:100%;
+font-family:'DM Sams',sans-serif;
+@apply text-gray-dark;
+}
+body{
+    background-color:#fff0db;
+}
